@@ -1,0 +1,56 @@
+
+Framework----
+
+A framework is a standard project structure created to manage automation scripts in reusable , maintenable, and scalable ways...
+
+Reusable-
+Lines of code, can be reuse with the help of page object model, testdata, utility
+
+Manintenable-
+if we have change in locator or method logic then we can update single locator or single method,
+so it is easy to maintain if we have framework structure.
+
+Scalability-
+today we have 2 test case login , add employee,
+after few days  we will have around 20 test cases so same framework can be used and it will grow as per requirements in future...
+
+POM------------------------------------------
+Page object model is design pattern which seprates the test logics from locators and mthods...
+pages can have all elemements locators present on this particular page 
+for example if we have loginPage then all webElements present on this page can be store in loginPage class and the we can write number of login page test scenarios..
+no need to define and store it again and again in every login test...
+
+
+Page Manager Concept
+Test Data driven approach by using testData.json file
+Faker class utility approach
+
+
+
+how to handle excel data in framework
+
+npm install xlsx
+
+
+
+-------------------------------------------------------
+
+Git/GitHub
+
+Git is Version control system
+
+
+GitHub
+Cloud based platform
+
+GitHub flow----
+
+Install git 
+Git initialize in project folder
+git init
+
+
+
+
+
+
