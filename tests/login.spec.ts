@@ -11,7 +11,7 @@ test("should login successfully and display the dashboard", async ({page}) => {
     
 });
 
-test.only("should display error message for invalid credentials", async ({page}) => {
+test("should display error message for invalid credentials", async ({page}) => {
     const pm = new PageManager(page);
 
     await pm.loginPage.gotoLoginPage();
