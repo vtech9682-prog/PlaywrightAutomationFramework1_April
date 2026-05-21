@@ -52,6 +52,9 @@ async addEmployee(firstName: string, lastName: string) {
         await this.firstNameInput.fill(firstName);
         await this.lastNameInput.fill(lastName);
         await this.saveButton.click();
+        
+        // Wait for navigation to the Personal Details page
+        await this.personalDetailsHeading.waitFor({ state: 'visible', timeout: 30000 });
 
 }
 
